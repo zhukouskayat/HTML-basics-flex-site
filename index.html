@@ -48,29 +48,97 @@
         </div>
 
         <div class="main">
-            <h2>Commodo dolore quis non cupidatat.</h2>
-            <h5>Commodo aliquip pariatur ullamco occaecat veniam sit.</h5>
-            <div class="fakeimg bigimg"><img src="img/pic2.jpg" alt="important image" class="img23"> </div>
-            <p>Cupidatat elit sint non consectetur laborum veniam velit dolore excepteur proident deserunt.</p>
-            <p>Cupidatat elit sint non consectetur laborum veniam velit dolore excepteur proident deserunt.</p>
-            <p>Cupidatat elit sint non consectetur laborum veniam velit dolore excepteur proident deserunt.</p>
-            <p>Cupidatat elit sint non consectetur laborum veniam velit dolore excepteur proident deserunt.</p>
+            <h2>Forms</h2>
+            <form method="POST">
+                <fieldset id="fieldset1">
+                    <legend>
+                        <strong>Personal information</strong>  
+                    </legend>
+                    <p> 
+                        <label>
+                            First name:
+                            <br>
+                            <input type="text" id="first-name" name="first-name">
+                        </label>
+                    </p>
+                    <p>
+                    <label>
+                        Last name:
+                        <br>
+                        <input type="text" id="last-name" name="last-name" maxlength="100">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Email adress:
+                        <br>
+                        <input type="email" id="email" name="email" maxlength="100">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Password:
+                        <br>
+                        <input type="password" id="password" name="password" maxlength="100">
+                    </label>
+                </p>
+                </fieldset>
+                <fieldset id="fieldset2">
+                    <legend>
+                        <strong>Your opinion about our website</strong>
+                    </legend>
+                    <p>
+                        <label>
+                            How did you hear about us?
+                        </label>
+                        <br>
+                        <select name="site" id="site">
+                            <option selected value="google">Google</option>
+                            <option value="friend">Friends</option>
+                            <option value="google">Advertising</option>
+                            <option value="google">Other</option>
+                        </select>
+                    </p>
+                    <p>
+                        Will you visit our website again?
+                        <br>
+                        <label>
+                            <input type="radio" name="answer" id="yes" value="yes">
+                            Yes
+                        </label>
+                        <label>
+                            <input type="radio" name="answer" id="no" value="no">
+                            No
+                        </label>
+                        <label>
+                            <input type="radio" name="answer" id="maybe" value="maybe">
+                            Maybe
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Comment:
+                        </label>
+                        <br>
+                        <textarea rows="4" cols="40" id="textarea"></textarea>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox" name="Subscribe">
+                            Я хочу получать рассылку
+                        </label>
+                    </p>
+                    <input type="submit" name="Submit" value="Submit" id="submit">
+                    <br>
+                    <input type="reset" name="reset" value="Reset" id="reset">
+                </fieldset>
+            </form>
 
-            <br>
-
-            <h2>Commodo dolore quis non cupidatat.</h2>
-            <h5>Commodo aliquip pariatur ullamco occaecat veniam sit.</h5>
-            <div class="fakeimg bigimg"><img src="img/pic3.jpg" alt="important image" class="img23"></div>
-            <p>Cupidatat elit sint non consectetur laborum veniam velit dolore excepteur proident deserunt.</p>
-            <p>Cupidatat elit sint non consectetur laborum veniam velit dolore excepteur proident deserunt.</p>
-            <p>Cupidatat elit sint non consectetur laborum veniam velit dolore excepteur proident deserunt.</p>
-            <p>Cupidatat elit sint non consectetur laborum veniam velit dolore excepteur proident deserunt.</p>
         </div>
-    </div>
 
-    <div class="footer">
-        <h2>Sint ad et tempor culpa fugiat in qui sunt officia velit.</h2>
-    </div>
+        <div class="footer">
+            <h2>Sint ad et tempor culpa fugiat in qui sunt officia velit.</h2>
+        </div>
 </body>
 
 </html>
